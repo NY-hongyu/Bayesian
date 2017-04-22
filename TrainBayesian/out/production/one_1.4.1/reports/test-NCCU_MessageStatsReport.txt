@@ -1,0 +1,20 @@
+Message stats for scenario test-NCCU
+sim_time: 4121.5000
+created: 138
+started: 1184
+relayed: 948
+aborted: 236
+dropped: 749
+removed: 0
+delivered: 3
+delivery_prob: 0.0217
+response_prob: 0.0000
+overhead_ratio: 315.0000
+latency_avg: 388.0000
+latency_med: 216.3000
+hopcount_avg: 2.6667
+hopcount_med: 1
+buffertime_avg: 462.0808
+buffertime_med: 73.7000
+rtt_avg: NaN
+rtt_med: NaN

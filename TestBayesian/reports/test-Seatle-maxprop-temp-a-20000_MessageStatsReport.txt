@@ -1,0 +1,20 @@
+Message stats for scenario test-Seatle-maxprop-temp-a-20000
+sim_time: 20000.1000
+created: 206
+started: 6004
+relayed: 6004
+aborted: 0
+dropped: 291
+removed: 2617
+delivered: 106
+delivery_prob: 0.5146
+response_prob: 0.0000
+overhead_ratio: 55.6415
+latency_avg: 6033.1236
+latency_med: 5154.4000
+hopcount_avg: 4.0094
+hopcount_med: 4
+buffertime_avg: 4633.7761
+buffertime_med: 4287.1000
+rtt_avg: NaN
+rtt_med: NaN

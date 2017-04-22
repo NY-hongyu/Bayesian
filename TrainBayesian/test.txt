@@ -1,0 +1,30 @@
+Scenario.name = test-Seatle-trainB
+
+Scenario.endTime = 36000
+
+
+MovementModel.worldSize = 31000, 58000
+btInterface.transmitSpeed = 250k
+btInterface.transmitRange = 50
+
+Scenario.nrofHostGroups = 1
+Group.nrofHosts = 65
+
+Group.movementModel = ExternalMovement
+Group.router = TrainBayesianRouter
+ExternalMovement.file = data/Seatle/11m3-65m.txt
+
+## Message creation parameters 
+# How many event generators
+Events.nrof = 1
+# Class of the first event generator
+Events1.class = MessageEventGenerator
+# (following settings are specific for the MessageEventGenerator class)
+# Creation interval in seconds (one new message every 25 to 35 seconds)
+Events1.interval = 95,100
+# Message sizes (500kB - 1MB)
+Events1.size = 1k
+# range of message source/destination addresses
+Events1.hosts = 1,10
+# Message ID prefix
+Events1.prefix = M

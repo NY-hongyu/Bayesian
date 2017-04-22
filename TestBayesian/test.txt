@@ -1,0 +1,32 @@
+Scenario.name = test-Seatle-train-epidemic-temp-1
+
+Scenario.endTime = 36000
+
+
+MovementModel.worldSize = 31000, 58000
+btInterface.transmitSpeed = 250k
+btInterface.transmitRange = 50
+
+Scenario.nrofHostGroups = 1
+Group.nrofHosts = 65
+
+Group.movementModel = ExternalMovement
+Group.router = EpidemicRouter
+ExternalMovement.file = data/Seatle/11m4-65m.txt
+# Message TTL of 300 minutes (5 hours)
+Group.msgTtl = 100
+
+## Message creation parameters 
+# How many event generators
+Events.nrof = 1
+# Class of the first event generator
+Events1.class = MessageEventGenerator
+# (following settings are specific for the MessageEventGenerator class)
+# Creation interval in seconds (one new message every 25 to 35 seconds)
+Events1.interval = 36,36
+# Message sizes (500kB - 1MB)
+Events1.size = 1kB
+# range of message source/destination addresses
+Events1.hosts = 1,10
+# Message ID prefix
+Events1.prefix = M

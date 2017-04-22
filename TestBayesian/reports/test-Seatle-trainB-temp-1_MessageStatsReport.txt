@@ -1,0 +1,20 @@
+Message stats for scenario test-Seatle-trainB-temp-1
+sim_time: 36000.1000
+created: 371
+started: 6848
+relayed: 6848
+aborted: 0
+dropped: 5273
+removed: 0
+delivered: 148
+delivery_prob: 0.3989
+response_prob: 0.0000
+overhead_ratio: 45.2703
+latency_avg: 8795.0358
+latency_med: 8626.7000
+hopcount_avg: 3.4595
+hopcount_med: 4
+buffertime_avg: 8103.6295
+buffertime_med: 7963.4000
+rtt_avg: NaN
+rtt_med: NaN

@@ -1,0 +1,7 @@
+Scenario.name = test-Seatle
+Group.movementModel = ExternalMovement
+ExternalMovement.file =data/Seatle/yesTrace.txt
+Scenario.endTime = 16400
+Scenario.nrofHostGroups = 1
+Group.nrofHosts = 8636
+MovementModel.worldSize = 180000, 280000

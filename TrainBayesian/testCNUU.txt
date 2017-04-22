@@ -1,0 +1,6 @@
+Scenario.name = test-NCCU
+Group.movementModel = ExternalMovement
+ExternalMovement.file =data/NCCU/day1(WED).txt
+Scenario.endTime = 86400
+Scenario.nrofHostGroups = 1
+Group.nrofHosts = 150
